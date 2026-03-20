@@ -9,10 +9,10 @@ In enterprise automation, UI changes (like a developer changing a button ID) oft
 This framework wraps Playwright actions in a logic layer that:
 1. **Detects Failure:** Identifies when a selector fails to find an element.
 2. **Contextual Analysis:** Captures a snapshot of the current Page HTML.
-3. **AI Reasoning:** Sends the broken selector and HTML context to **Gemini 1.5 Flash**.
+3. **AI Reasoning:** Sends the broken selector and HTML context to **Gemini 2.5 Flash**.
 4. **Auto-Repair:** Receives the corrected selector and re-attempts the action instantly.
 
-## 🧰 Tech Stack (2026 Update)
+## 🧰 Tech Stack--2026
 
 * **Language:** Python 3.9+ (Active venv)
 * **Automation:** Playwright (Synchronous API)
